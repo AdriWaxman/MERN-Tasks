@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/projects" component={Projects} />
       </Switch>
     </Router>
-  );
+  ); 
 }
  
 export default App;
