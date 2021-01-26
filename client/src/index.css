@@ -5,6 +5,7 @@
     --gris3: #1a202d;
     --negro: #000000;
     --blueLink: #1976d2;
+    --redCoral: #e64e4e;
     --headingFont: 'Raleway', sans-serif;
     --textFont: 'Roboto', sans-serif;
 }
@@ -90,6 +91,17 @@ a {
 
 .btn-secundario {
     background-color: var(--gris1);
+}
+
+.btn-coral {
+    background-color: var(--redCoral);
+    color: var(--blanco);
+}
+
+.btn-coral:hover {
+    box-shadow: 0 0 0 1px var(--redCoral);
+    background-color: transparent;
+    color: var(--redCoral);
 }
 
 .btn-block {
