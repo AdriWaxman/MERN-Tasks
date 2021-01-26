@@ -6,6 +6,7 @@
     --negro: #000000;
     --blueLink: #1976d2;
     --redCoral: #e64e4e;
+    --addOrange: #ff9800;
     --headingFont: 'Raleway', sans-serif;
     --textFont: 'Roboto', sans-serif;
 }
@@ -93,12 +94,23 @@ a {
     background-color: var(--gris1);
 }
 
-.btn-coral {
+.btn-add {
+    background-color: var(--addOrange);
+    color: var(--blanco);
+}
+
+.btn-add:hover {
+    box-shadow: 0 0 0 1px var(--addOrange);
+    background-color: transparent;
+    color: var(--addOrange);
+}
+
+.btn-eliminar {
     background-color: var(--redCoral);
     color: var(--blanco);
 }
 
-.btn-coral:hover {
+.btn-eliminar:hover {
     box-shadow: 0 0 0 1px var(--redCoral);
     background-color: transparent;
     color: var(--redCoral);

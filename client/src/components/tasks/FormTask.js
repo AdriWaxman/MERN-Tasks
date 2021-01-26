@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const FormTask = () => {
   return ( 
     <div className="formulario">
@@ -17,7 +18,7 @@ const FormTask = () => {
         <div className="contenedor-input">
           <input
             type="submit"
-            className="btn btn-coral btn-submit btn-block"
+            className="btn btn-add btn-submit btn-block"
             value="Add Task"
           />
         </div>
