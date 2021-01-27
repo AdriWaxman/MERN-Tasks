@@ -5,7 +5,7 @@ const FormNewProject = () => {
 
   //State de formulario
   const projectsContext = useContext(projectContext);
-  const { newFormProject } = projectsContext;
+  const { newformproject, handleToggleForm } = projectsContext;
 
   //State project
   const [project, setProject] = useState({
@@ -34,17 +34,22 @@ const FormNewProject = () => {
 
   };
 
+  const showFormInput = () =>{
+    handleToggleForm();
+  };
+
   return ( 
     <Fragment>
       <button
       type="button"
       className="btn btn-block btn-primario"
+      onClick={showFormInput}
     >
       
         New project
       </button>
       {
-        newFormProject 
+        newformproject 
           ? (
             <form
             className="formulario-nuevo-proyecto"
